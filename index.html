@@ -11,19 +11,45 @@
   <div class="text-box">
     <img src="images/triangle.png" alt="A photo of the three types if triangles">
     <p> Please submit <em>three</em> length values of the three sides of a triangle
-      and find out what type of traingle it is!</p>
-    <form class="triangle-tracker">
-      Value of length 1: <input class="length 1" type="float" name="fname"><br>
-      Value of length 2: <input class="length 1" type="float" name="lname"><br>
-      Value of length 3: <input class="length 1" type="float" name="lname"><br>
-         <button type="submit" value="Submit" name="submit" onclick="triangleSizes()" >Submit</button>
+      and find out what type of triangle it is!</p>
+    <form class="triangle-tracker" action="/action_page.php" autocomplete="off">
+
+      <p>
+        <label for="lengthA">Length A</label>
+        <input id="lengthA" type="text" name="lengthA" value="" placeholder="enter size of lengthA here" required>
+      </p>
+
+      <p><label for="lengthB">Length B</label>
+        <input id="lengthB" type="text" name="lengthB" value="" placeholder="enter size of lengthA here" required>
+      </p>
+      <label for="lengthC">Length C</label>
+      <input id="lengthC" type="text" name="lengthC" value="" placeholder="enter size of lengthC here" required>
+
+      <div class="form-buttons">
+        <button type="submit" name="submit" onclick="getValues()">Submit</button>
+
+
+      </div>
+
+
     </form>
-  </div>
- <script type="text/javascript"</script>
-   function triangleSizes {
-     alert("scalene );
-   }
 
-</body>
+    <script type="text/javascript" <script src="js/scripts.js" charset="utf-8">
 
-</html>
+    </script>
+    <script type="text/javascript">
+      function getValues() {
+        alert("Scalene");
+      }
+      function getValues(){
+        alert("Equilateral");
+      }
+      function getValues(){
+        alert("isosceles");
+      }
+      function getValues(){
+        alert("This is not a triangle");
+      }
+      </script>
+      </body>
+      </html>
