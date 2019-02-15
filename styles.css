@@ -10,8 +10,11 @@ p{
   text-align: center;
 }
 .text-box {
-    border: 2px solid black ;
-    padding: 6px;
+    border: 7px solid black ;
+    padding: 25px;
     margin: 20px;
     background-color: salmon;
+  }
+  body{
+    background-color: lightblue;
   }
