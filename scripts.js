@@ -14,7 +14,7 @@
    } else if ((lengthA !== lengthB !== lengthC) && (lengthA + lengthB > lengthC) || (lengthB + lengthC > lengthA) || (lengthA + lengthC > lengthB)) {
      alert("This is an Isosceles Triangle");
    } else {
-     alert("Please enter new trinagle lengths");
+     alert("Please enter new triangle lengths");
    }
 
  }
