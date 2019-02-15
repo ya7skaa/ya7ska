@@ -9,3 +9,6 @@ form{
 p{
   text-align: center;
 }
+.text-box {
+    border: 2px solid black ;
+  }
