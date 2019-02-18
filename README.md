@@ -5,10 +5,13 @@
 {This is a application created where the user can give the three lengths of a triangle and it results in the type of triangle it is. Whether an equilateral, isosceles , scalene or no triangle at all.}
 ## Setup/Installation Requirements
 * Clone this repo to your desktop ,run it on the terminal using the command (git clone URL.git)
-* For an equilateral triangle, all sides must be equal. (for example 3,3 & 3)
-For an isosceles triangle, two sides are exactly equal.(4,4 & 7)
-For a scalene triangle, none of the sides is equal. However, the sum of any two sides of the triangle must be greater than the third side.(12,8,4)
-If the sum of any two sides of the triangle is equal to or less than the third remaining side, then a triangle CANNOT be formed using those values. (For example, the values 9,4 & 3 cannot form a triangle.)
+##behavior driven development
+| General behavior | Input |  Output  |
+| :------------- | :------------- |:------------- |
+| To determine if it is a triangle  |  sum of any two sides of the triangle is equal to or less than the third remaining side    | then a triangle CANNOT be formed     |
+| To determine if it is  an equilateral triangle | if all sides are equal | equilateral triangle |
+| To determine if it is an isosceles triangle | two sides are exactly equal | isosceles triangle |
+| To determine if it is a scalene triangle | none of the sides are equal .However, the sum of any two sides of the triangle must be greater than the third side | scalene triangle |
 {{This webpage doesn't not require any other tool or software to run.It also doesn't require any other dependancies}
 ## Known Bugs
 {There are no bugs or issues in this repository. }
