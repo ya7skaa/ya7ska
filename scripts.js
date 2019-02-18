@@ -12,7 +12,7 @@
    } else if ((lengthA === lengthB) || (lengthA === lengthC) || (lengthB === lengthC)) {
      alert("This is an Isosceles Triangle");
    } else if ((lengthA !== lengthB !== lengthC) && (lengthA + lengthB > lengthC) || (lengthB + lengthC > lengthA) || (lengthA + lengthC > lengthB)) {
-     alert("This is an Isosceles Triangle");
+     alert("This is an Scalene Triangle");
    } else {
      alert("Please enter new triangle lengths");
    }
