@@ -5,6 +5,7 @@
 {This is a application created where the user can give the three lengths of a triangle and it results in the type of triangle it is. Whether an equilateral, isosceles , scalene or no triangle at all.}
 ## Setup/Installation Requirements
 * Clone this repo to your desktop ,run it on the terminal using the command (git clone URL.git)
+##Behavior driven development
 | General Behavior  | Input    | Output |
 | :------------- | :------------- | :------------- |
 | To determine if its a triangle    |   If the sum of any two sides of the triangle is equal to or less than the third remaining side    |    then a triangle CANNOT be formed |
