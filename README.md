@@ -12,6 +12,7 @@
 |If it is an equilateral triangle | all sides must be equal| display equilateral |
 | if it is an isosceles triangle | two sides are exactly equal | display isosceles |
 | If it is a scalene triangle | none of the sides are equal .However , sum of any two sides of the triangle must be greater than the third side| display scalene |
+
 {This webpage doesn't not require any other tool or software to run.It also doesn't require any other dependancies}
 ## Known Bugs
 {There are no bugs or issues in this repository. }
